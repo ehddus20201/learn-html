@@ -1,19 +1,27 @@
-.container{
+.list{
     background-color: hotpink;
-    height: 400px;
 }
-.box01{
-    width: 200px;
-    height: 200px;
+.list li{
     background-color: dodgerblue;
 }
-.box02{
-    width: 200px;
-    height: 200px;
+.list > .menu{
     background-color: orange;
 }
-.another{
-    width: 400px;
-    height: 600px;
-    background-color: black;
+.list > li:nth-child(3){
+    background-color: green;
 }
+/* CSS nesting */
+
+/* .list{
+
+    &:hover{
+        &가 나라는 뜻 부모를 선택해야할 때 &를 쓴다
+    }
+
+    > li:nth-child(3){
+
+    }
+    > .menu{
+
+    }
+} */

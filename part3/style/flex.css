@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    translate:-50% -50%; */
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+    
+
+
+    > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        background-color: dodgerblue;
+    }
+}

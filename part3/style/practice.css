@@ -1,0 +1,22 @@
+
+header ul li:nth-child(3) >a {
+    color : red;
+}
+main{
+    background-color: rgb(168, 168, 168);
+}
+main .border{
+    border: 1px solid blue;
+    background-color: yellow;
+}
+main ul li:nth-child(2){
+    /* transform: scale(1.1) translateX(30px); */
+    font-size: 25px;
+    font-weight: bold;
+}
+main ul li:nth-child(3){
+    text-decoration: underline;
+}
+footer:hover > p{
+    background-color: aqua;
+}

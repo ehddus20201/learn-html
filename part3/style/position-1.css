@@ -1,0 +1,92 @@
+body{
+    height: 5000px;
+}
+.box01{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* margin-left: 100px; */
+    position: relative;
+    margin: 0 auto;
+    /*
+    top: 100px;
+    left: 300px; */
+    
+    
+}
+
+.box02{
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: hotpink;
+    position: relative;
+    
+}
+
+.container > div{
+    width: 200px;
+    height: 200px;
+}
+
+.container .list01{
+    background-color: green;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 10;
+}
+.container .list02{
+    background-color: orange;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.container .list03{
+    background-color: rgb(28, 192, 137);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.container .list04{
+    background-color: rgb(182, 44, 26);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.container .list05{
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    /* transform: translateX(-50%) translateY(-50%); */
+    /* transform: translate(-50%, -50%); */
+    translate:-50% -50%;
+    /* margin-left: -100px;
+    top: 50%;
+    margin-top: -100px; */
+    /* top: 200px; */
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate:-50% -50%;
+}
+.box03{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(167, 106, 15);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    /* translate:-50% -50%;
+    transition: all 1s; */
+
+}
