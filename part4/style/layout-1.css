@@ -1,0 +1,42 @@
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    translate:-50% -50%; */
+    
+    > div{
+        width: 250px;
+        height: 250px;
+        border-radius: 30px;
+        background-color: rgb(136, 136, 245);
+        color: white;
+        font-size: 24px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+        
+    }
+}
+

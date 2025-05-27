@@ -1,0 +1,32 @@
+body{
+    position: relative;
+}
+.white{
+    background-color: white;
+    height: 1000px;
+}
+.gray{
+    height: 1000px;
+    background-color: black;
+}
+.green{
+    position:absolute;
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+    top:50%;
+    right: 50%;
+    translate: 50% -50%;
+}
+.green > div{
+    background-color: black;
+}
+.green .box01{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+    translate: 100% -100%;
+
+}
